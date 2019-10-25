@@ -12,6 +12,10 @@ function Post({ data }) {
                     <span className="post-date">{data.date}</span>
                 </div>
             </div>
+            <div className="post-content">
+                {data.content}
+            </div>
+            <div className="post-divisor"></div>
         </div>
     )
 }
